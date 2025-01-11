@@ -1,2 +1,6 @@
 # csd-340
-Keanu CSD 340 Repository
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+### • Keanu Foltz
+### • Adam Bailey
+#### Keanu CSD 340 Repository
