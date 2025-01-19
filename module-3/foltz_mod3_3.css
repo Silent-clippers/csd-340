@@ -1,0 +1,54 @@
+/* Keanu Foltz 1/19/25 mod 3.3 */
+h1 {
+    text-align: center;
+}
+
+div[style*="width: 45%;"] {
+    width: 45%;
+}
+
+div[style*="width: 100%; margin-top: 60%;"] {
+    width: 100%;
+    margin-top: 60%;
+}
+
+
+h3 {
+    font-weight: 500;
+}
+
+
+li {
+    font-weight: 300;
+}
+
+h3 + ol, h3 + ol li {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+ol {
+    padding: 10px;
+}
+
+
+h3 + ul, h3 + ul li {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+ul {
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div[style*="float: right;"] {
+    float: right;
+    margin-bottom: 20px;
+}

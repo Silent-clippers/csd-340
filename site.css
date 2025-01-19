@@ -1,0 +1,35 @@
+/* Keanu Foltz 1/19/25 mod 3.2 */
+
+html, body {
+	font-family: "Oxygen", serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+#Container {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1, h2, h3, h4{
+	background-color: RoyalBlue;
+	color: White;
+	border: 1px solid rgb(215, 197, 0);
+	padding: 10px;
+}
+
+a{
+	color: rgb(165, 9, 193);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(88, 87, 102)
+}
+
+a:visited {
+	color: rgb(215, 197, 0)
+}
+
+
