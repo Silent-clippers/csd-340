@@ -1,0 +1,29 @@
+/* Keanu Foltz 1/26/25 mod 4.2 */
+h1 {
+    text-align: center;
+    color: royalblue;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(151, 151, 5)
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border: 3px solid black;
+    margin-top: 10%;
+
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgb(16, 16, 162)
+}
