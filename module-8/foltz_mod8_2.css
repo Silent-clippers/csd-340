@@ -1,0 +1,109 @@
+/* Keanu Foltz 2/2/25 mod 8.2 */
+header {
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333333;
+    border-bottom: 15px solid #ff9900;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ff9900;
+    color: black;
+}
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: orangered;
+    color: white;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: white;
+}
+
+#container {
+    margin: 2% 5% 5% 100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin: auto;
+    background-color: #e9e4e4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #ff9900;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: orangered;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: left;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+footer a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
