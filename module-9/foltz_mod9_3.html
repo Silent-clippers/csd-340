@@ -1,0 +1,43 @@
+<!-- Keanu Foltz mod 9.3 2/17/25 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Development with HTML and CSS</title>
+    <script>
+        var firstWord = "snowboarding";
+        var secondWord = "cheap";
+        var thirdWord = "lift ticket";
+        var fourthWord = "Hawaii";
+    </script>
+    <link href="foltz_mod2_2.css" type="text/css"
+        rel="stylesheet" />
+    <meta name="description"
+        content="A student's web page" />
+    <meta name="keywords"
+        content="student, learn, build" />
+    <meta name="robots"
+        content="nofollow" />
+    <meta http-equiv="author"
+        content="Keanu Foltz" />
+
+</head>
+
+<body>
+    <div id="container">
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+    <p class="intro">Snowboarding is a great way to have fun and get exercise. When I was living in Japan, I would go <span id="word1">________</span> every winter with my friends.</p> 
+    <p>The nice thing about snowboarding in Japan is that it is relatively <span id="word2">________</span>. You can get lodging, a <span id="word3">________</span>, and a shuttle to the mountain for about 150 US dollars. The food and drinks on the mountain also will not break the bank and taste pretty good too.</p> 
+    <p>I havent had a chance to go to snowboarding since moving back to <span id="word4">________</span> in 2023. Hopefully after graduating from the course, I will have time to stop by Japan and hit the slopes.</p>
+    <p>
+        <button type="button" onclick="document.getElementById('word1').innerHTML = firstWord">snowboarding</button>
+        <button type="button" onclick="document.getElementById('word2').innerHTML = secondWord">cheap</button>
+        <button type="button" onclick="document.getElementById('word3').innerHTML = thirdWord">lift ticket</button>
+        <button type="button" onclick="document.getElementById('word4').innerHTML = fourthWord">Hawaii</button>
+    </p>
+    <hr/>
+    <address><p><a href="https://www.bellevue.edu/" target="_blank">Bellevue University</a></p> 
+        <p>1000 Galvin Rd S,</p> 
+        <p>Bellevue, NE 68005</p></address>  
+</body>
+
+</html>
