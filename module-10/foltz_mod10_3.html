@@ -1,0 +1,59 @@
+<!-- Keanu Foltz mod 10.3 2/20/25 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        function displayImage(imageFile) {
+            var largerImage = document.getElementById("mainImage");
+            if (largerImage) {
+                largerImage.src = imageFile;
+            }
+        }
+    </script>
+    <link rel='stylesheet' type='text/css' href='foltz_mod10_3.css' />
+</head>
+<body>
+    <br />
+
+    <div>
+        <img id="mainImage" src="default.jpg" alt="Main Image">
+    </div>
+
+    <br />
+
+    <div>
+        <a href="#"
+            onmouseover="oil1.src='image1.jpeg';"
+            onmouseout="oil1.src='image2.jpeg';"
+            onclick="displayImage('image1.jpeg');">
+            <img border="0" name="oil1" src="image2.jpeg" alt="oil paint image">
+        </a>
+    </div>
+
+    <br />
+
+    <div
+        onmouseover="this.style.color='red';"
+        onmouseout="this,style.color='black';">
+        <br />
+    </div>
+
+    <div>
+        <a href="#"
+            onmouseover="oil2.src='image3.jpeg';"
+            onmouseout="oil2.src='image4.jpeg';"
+            onclick="displayImage('image3.jpeg');">
+            <img border="0" name="oil2" src="image3.jpeg" alt="oil paint image 2">
+        </a>
+    </div>
+    <br />
+
+    <div
+        onmouseover="this.style.color='red';"
+        onmouseout="this.style.color='black';">
+        <br />
+    </div>
+
+</body>
+</HTML>

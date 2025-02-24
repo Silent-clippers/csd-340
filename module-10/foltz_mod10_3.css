@@ -1,0 +1,24 @@
+/* Keanu Foltz 10.3 2/21/25 */
+body {
+    text-align: center;
+    margin: 20px;
+}
+
+#mainImage {
+    display:block;
+    margin: 20px auto;
+}
+
+div {
+    margin: 20px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border: 2px solid;
+}
+
+a {
+    margin: 10px;
+}
