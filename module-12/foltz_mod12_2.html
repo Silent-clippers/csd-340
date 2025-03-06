@@ -1,0 +1,77 @@
+<!-- Keanu Foltz 3/6/25 mod 12.2 --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CSD 340 Web Development with HTML and CSS</title>
+	<link href="foltz_mod12_2.css" type="text/css" 
+		rel="stylesheet">
+</head>
+
+<body>
+	<div id="container">
+	<h1>Assignment 12.2:JavaScript - Part 4</h1>
+	<div style="display: flex; justify-content: space-between;">
+
+		<div style="width: 45%;">
+			<h3>Top 10 Favorite Books</h3>
+			<ol id="book-list">
+				<li>Harry Potter and the Sorcerer's Stone</li>
+				<li>To Kill a Mocking Bird</li>
+				<li>The Great Gatsby</li>
+				<li>Moby Dick</li>
+				<li>Jurrassic Park</li>
+				<li>The Sympathizer</li>
+				<li>Dune</li>
+				<li>Water Margin</li>
+				<li>The Tale of Genji</li>
+				<li>Romance of the Three Kingdoms</li>
+			</ol>
+			<button onclick="sortBooks(true)">Top to Bottom</button>
+			<button onclick="sortBooks(false)">Bottom to Top</button>
+		</div>
+
+		<div style="width: 45%;">
+		<h3>5 Things I've learned since the Course Started</h3>
+		<ul>
+			<li>Some Types of mental processing are more challenging than others</li>
+			<li>People Process Information Better in Bite Sized Chunks</li>
+			<li>The Most Vivid Memories are Wrong</li>
+			<li>People Reconstruct Memories Each Time they Remember Them</li>
+			<li>Memory Takes A lot of Mental Resources</li>
+		</ul>
+		</div>
+	</div>
+		<div style="width: 100%; margin-top: 60%;">
+			<a href="../index.html" style="float: right;">Back to landing page</a>
+		</div>
+	</div>
+	<script>
+		let books = [
+			"Harry potter and the Sorcerer's Stone",
+			"To Kill a Mocking Bird",
+			"The Great Gatsby",
+			"Moby Dick",
+			"Jurassic Park",
+			"The Sympathizer",
+			"Dune",
+			"Water Margin",
+			"The Tale of Genji",
+			"Romance of the Three Kingdoms"
+		];
+
+		function sortBooks(ascending) {
+			let sortedBooks = ascending ? books.slice().sort() : books.slice().sort().reverse();
+			let bookList = document.getElementById("book-list");
+
+			bookList.innerHTML = "";
+
+			sortedBooks.forEach(book => {
+				let li = document.createElement("li");
+				li.textContent = book;
+				bookList.appendChild(li);
+			});
+		}
+	</script>
+
+</body>
+</html>
